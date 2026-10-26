@@ -1,0 +1,29 @@
+# Arduino/build output
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+
+# Python / ML
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+models/*.tflite
+models/*.onnx
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# User datasets and recordings
+data/private/
+recordings/
